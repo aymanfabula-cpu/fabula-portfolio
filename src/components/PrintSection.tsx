@@ -12,7 +12,7 @@ const PrintSection: React.FC = () => {
         <div className="text-right text-sm">
           <p>{profile.email}</p>
           <p>{profile.location}</p>
-          <p>Portfolio: fabula-ayman.github.io (placeholder)</p>
+          <p>Portfolio: youhannamaher.github.io/fabula-portfolio</p>
         </div>
       </div>
 
@@ -65,7 +65,7 @@ const PrintSection: React.FC = () => {
       </div>
 
       <div className="mt-20 pt-10 border-t border-gray-100 text-center text-[10px] text-gray-400">
-        Generated for Master 1 Digital Creation, Arts and Technologies - University of Toulouse Jean Jaurès.
+        Professional Practice & Portfolio — Fabula Ayman | Content Creator, Scriptwriter & Creative.
       </div>
     </div>
   );

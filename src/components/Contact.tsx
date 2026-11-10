@@ -134,7 +134,7 @@ const Contact: React.FC = () => {
               <span>Download CV</span>
             </a>
          </div>
-         <p className="text-white/40 text-sm">Design tailored for Master 1 Digital Creation application.</p>
+         <p className="text-white/40 text-sm">Available for scriptwriting, creative campaigns & brand content.</p>
       </div>
     </div>
   );

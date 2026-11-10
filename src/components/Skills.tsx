@@ -1,17 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { profile } from '../data/profile';
-import { Video, Share2, Palette, Zap, Target, MousePointer2, Camera, Layout } from 'lucide-react';
+import { FileText, Share2, Palette, Zap, Target, Camera, Layout } from 'lucide-react';
 
 const iconMap: Record<string, any> = {
-  'Video Editing': Video,
+  'Scriptwriting': FileText,
   'Content Production': Zap,
   'Brand Storytelling': Target,
   'Social Media Content': Share2,
   'Instagram Visual Identity': Palette,
   'Campaign Concepts': Layout,
   'Creative Direction': Camera,
-  'Multimedia Content Management': MousePointer2,
 };
 
 const Skills: React.FC = () => {
@@ -20,11 +19,11 @@ const Skills: React.FC = () => {
       <div className="text-center mb-16">
         <h2 className="section-title">Creative Focus & Skills</h2>
         <p className="text-gray-500 max-w-2xl mx-auto mt-4">
-          A combination of creative vision and technical proficiency to deliver high-impact digital content.
+          A combination of narrative craft, strategic concept ideation, and visual direction to build impactful brand stories.
         </p>
       </div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
         {profile.skills.map((skill, index) => {
           const Icon = iconMap[skill.title] || Zap;
           return (

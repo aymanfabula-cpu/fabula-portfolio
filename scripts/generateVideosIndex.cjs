@@ -41,7 +41,9 @@ function generateIndex() {
       syncedMetadata.push({
         filename: file,
         title: nameWithoutExt.replace(/[_-]/g, ' '),
-        category: 'General',
+        category: 'Branding',
+        project: 'Other',
+        views: '',
         order: syncedMetadata.length + 1
       });
     }
@@ -61,6 +63,8 @@ function generateIndex() {
     src: `videos/${m.filename}`,
     title: m.title,
     category: m.category,
+    project: m.project || 'General',
+    views: m.views || '',
     order: m.order || (index + 1),
     duration: m.duration || '0:00'
   }));

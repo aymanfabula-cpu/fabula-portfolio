@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         </p>
         
         <p className="text-base md:text-lg text-gray-500 mb-8 md:mb-12 max-w-2xl border-l-2 border-accent/30 pl-6 italic">
-          “I create visual stories that connect brands, people, and emotions through video editing, content production, and digital storytelling.”
+          “Turning raw material into authentic narratives that resonate deeply and strike a chord with audiences.”
         </p>
         
         <div className="flex flex-wrap gap-4 items-center no-print">
