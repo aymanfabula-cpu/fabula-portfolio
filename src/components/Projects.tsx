@@ -94,13 +94,20 @@ const Projects: React.FC = () => {
                 {project.logo && (
                   <div className="mt-8 pt-6 border-t border-gray-100 flex items-center gap-3">
                     <span className="text-xs text-gray-400 uppercase tracking-wider font-semibold">Associated Brand:</span>
-                    <div className="w-8 h-8 rounded-lg overflow-hidden bg-gray-100 border border-gray-200 p-1 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-xl overflow-hidden bg-gray-100 border border-gray-200 p-1 flex items-center justify-center flex-shrink-0">
                       <img
                         src={project.logo}
                         alt={`${project.title} Logo`}
-                        className="w-full h-full object-contain"
+                        className="w-full h-full object-contain rounded-lg"
                         onError={(e) => {
-                          (e.target as HTMLImageElement).src = 'images/logo.png';
+                          const target = e.target as HTMLImageElement;
+                          if (!target.src.includes('williams-art-logo.jpg')) {
+                            target.src = 'images/williams-art-logo.jpg';
+                          } else if (!target.src.includes('williams-art-logo.png.jpg')) {
+                            target.src = 'images/williams-art-logo.png.jpg';
+                          } else {
+                            target.src = 'images/logo.png';
+                          }
                         }}
                       />
                     </div>

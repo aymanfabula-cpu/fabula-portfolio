@@ -109,14 +109,20 @@ const VideoGallery: React.FC = () => {
           className="bg-gradient-to-r from-stone-900 via-stone-850 to-neutral-900 rounded-3xl p-6 md:p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl border border-white/10"
         >
           <div className="flex items-center gap-5">
-            <div className="relative w-16 h-16 md:w-20 md:h-20 rounded-2xl overflow-hidden bg-white/10 border border-white/20 flex-shrink-0 flex items-center justify-center p-2">
+            <div className="relative w-16 h-16 md:w-20 md:h-20 rounded-2xl overflow-hidden bg-white/10 backdrop-blur-md border border-white/20 flex-shrink-0 flex items-center justify-center p-1.5 shadow-inner">
               <img
                 src="images/williams-art-logo.png"
                 alt="Williams Art Logo"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain rounded-xl"
                 onError={(e) => {
-                  // Fallback if user hasn't added custom williams-art-logo.png yet
-                  (e.target as HTMLImageElement).src = 'images/logo.png';
+                  const target = e.target as HTMLImageElement;
+                  if (!target.src.includes('williams-art-logo.jpg')) {
+                    target.src = 'images/williams-art-logo.jpg';
+                  } else if (!target.src.includes('williams-art-logo.png.jpg')) {
+                    target.src = 'images/williams-art-logo.png.jpg';
+                  } else {
+                    target.src = 'images/logo.png';
+                  }
                 }}
               />
             </div>

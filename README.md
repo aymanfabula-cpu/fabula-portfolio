@@ -1,71 +1,49 @@
-# Portfolio de Fabula Ayman
+# Portfolio Professionnel — Fabula Ayman
+### Content Creator | Scriptwriter | Creative
 
-Bienvenue dans ton portfolio professionnel ! Ce site a été conçu pour t'aider dans ta candidature au **Master 1 Création numérique, mention Arts et Technologies** à l'Université Toulouse Jean Jaurès.
+Bienvenue dans le portfolio de **Fabula Ayman**. Ce projet présente ses créations visuelles, scripts publicitaires, collaborations de marque (Williams Art), documentaires culturels (Musées d'Alexandrie) et projets freelance.
 
-## 🚀 Comment l'utiliser (Pour Windows)
+* 🌐 **Site en ligne :** [https://youhannamaher.github.io/fabula-portfolio/](https://youhannamaher.github.io/fabula-portfolio/)
+* 📖 **Guide complet pour Fabula & son IA :** Voir le fichier [GUIDE_POUR_FABULA.md](./GUIDE_POUR_FABULA.md)
 
-C'est très simple, tu n'as pas besoin de coder.
+---
 
-### 1. Voir ton portfolio
-Double-clique sur le fichier :
+## 🚀 Utilisation Rapide (Pour Windows)
+
+Tu n'as jamais besoin de coder. Utilise simplement ces raccourcis :
+
+### 1. Prévisualiser le site
+Double-clique sur :
 👉 **`open-portfolio-preview.cmd`**
+* Installe les dépendances si nécessaire.
+* Met à jour l'index des vidéos.
+* Ouvre ton navigateur automatiquement sur `http://localhost:5173`.
 
-Cela va :
-- Installer ce qu'il faut (la première fois).
-- Scanner tes vidéos.
-- Ouvrir ton navigateur automatiquement sur ton portfolio.
-
----
-
-### 📱 Voir sur ton Téléphone
-Pour tester ton portfolio sur ton téléphone :
-1. Connecte ton téléphone au **même réseau WiFi** que ton ordinateur.
-2. Lance le site avec `open-portfolio-preview.cmd`.
-3. Tape l'adresse suivante dans le navigateur de ton téléphone :
-   👉 **`http://172.20.10.4:5173`**
-
----
-
-### 2. Ajouter des vidéos
-1. Va dans le dossier **`public/videos/`**.
-2. Copie tes fichiers vidéo dedans (formats `.mp4`, `.webm`, `.mov`).
-3. Pour que les titres soient jolis, nomme tes fichiers comme ceci : `Ma_Super_Video.mp4` deviendra "Ma Super Video" sur le site.
-4. Une fois les vidéos ajoutées, double-clique sur :
+### 2. Mettre à jour les vidéos et les vues
+Après avoir ajouté des vidéos dans `public/videos/` ou modifié `public/videos/metadata.json` :
 👉 **`update-videos-preview.cmd`**
-5. Rafraîchis la page de ton navigateur.
 
-### 3. Changer ta photo de profil
-1. Mets ta photo dans **`public/images/`** et nomme-la `profile.jpg`.
-2. Le site la reconnaîtra automatiquement (ou tu peux modifier le chemin dans `src/data/profile.ts`).
-
-### 4. Ajouter ton CV
-1. Mets ton CV en PDF dans **`public/documents/`**.
-2. Nomme-le exactement : `FABULA.CV.pdf`.
+### 3. Publier en ligne (GitHub Pages)
+Pour envoyer toutes tes modifications sur le site internet officiel :
+👉 **`push-to-github.cmd`**
+*(Attends 1-2 minutes que GitHub Pages finisse la publication).*
 
 ---
 
-### 🚀 5. Publier en ligne (GitHub)
-Une fois que tu as ajouté tes vidéos ou modifié ton texte :
-1. Double-clique sur : 👉 **`push-to-github.cmd`**
-2. Attends que la fenêtre se ferme.
-3. Ton site sera mis à jour automatiquement sur :
-   👉 **https://youhannamaher.github.io/fabula-portfolio/**
-   *(Attends 1-2 minutes que GitHub finisse la mise à jour)*
+## 📁 Structure des fichiers éditables
+
+| Élément à modifier | Emplacement du fichier |
+| :--- | :--- |
+| **Textes, Bio, Expériences, Compétences, Liens** | `src/data/profile.ts` |
+| **Titres des vidéos, Vues, Projets, Catégories** | `public/videos/metadata.json` |
+| **Fichiers Vidéo (.mp4, .mov)** | `public/videos/` |
+| **Photo de profil** | `public/images/profile.jpeg` |
+| **Logo Williams Art** | `public/images/williams-art-logo.png` |
+| **CV PDF** | `public/documents/FABULA.CV.pdf` |
 
 ---
 
-## 🛠 Personnalisation (Optionnel)
-Si tu veux changer tes textes, ton email ou tes expériences :
-1. Ouvre le fichier **`src/data/profile.ts`** avec un bloc-notes.
-2. Modifie les textes entre les guillemets `" "`.
-3. Enregistre le fichier.
-
----
-
-## 📄 Exporter pour l'université (Book de pratique)
-Le site est optimisé pour l'impression :
-1. Ouvre ton portfolio dans Chrome ou Edge.
-2. Appuie sur `Ctrl + P` (Imprimer).
-3. Choisis "Enregistrer au format PDF".
-4. Le site cachera automatiquement les boutons et le menu pour créer un document propre et professionnel.
-
+## 🤖 Guide pour ton IA (Claude, ChatGPT, etc.)
+Pour modifier facilement le site avec une IA sans connaissances techniques, ouvre le guide détaillé :
+👉 **[GUIDE_POUR_FABULA.md](./GUIDE_POUR_FABULA.md)**
+Copie-colle le prompt de la section 3 dans ton IA pour qu'elle te guide pas à pas !
