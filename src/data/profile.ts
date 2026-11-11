@@ -84,7 +84,7 @@ export const profile = {
       role: "Lead Scriptwriter",
       objective: "Defined the goal and creative angle of each script, tailoring messaging across various concepts to reach and resonate with target audiences.",
       tools: "Scriptwriting, Audience Strategy, Campaign Concepts",
-      link: "https://instagram.com" // You can replace this with your direct freelance project link
+      link: "https://www.canva.com/design/DAHXa1vKDxo/kSIMZ-q1zD9FP48BWNKGfw/edit",
     },
     {
       title: "Alexandria Museums Documentary",
