@@ -4,7 +4,7 @@
     "title": "Introducing William’s Art",
     "category": "Branding",
     "project": "Williams Art",
-    "views": "10K+ views",
+    "views": "11.8K+ views",
     "order": 1
   },
   {
@@ -12,7 +12,7 @@
     "title": "William's Passion",
     "category": "Branding",
     "project": "Williams Art",
-    "views": "15K+ views",
+    "views": "196K+ views",
     "order": 2
   },
   {
@@ -20,15 +20,13 @@
     "title": "Graeco-Roman Museum - Alexandria",
     "category": "Documentary",
     "project": "Alexandria Museums",
-    "views": "8.5K views",
-    "order": 3
+     "order": 3
   },
   {
     "filename": "Jewelry_Museum.mov",
     "title": "Royal Jewelry Museum - Alexandria",
     "category": "Documentary",
     "project": "Alexandria Museums",
-    "views": "12K+ views",
     "order": 4
   },
   {
@@ -36,7 +34,7 @@
     "title": "Saint Mary Church - Part 1",
     "category": "Documentary",
     "project": "Documentary & Exploration",
-    "views": "9K+ views",
+    "views": "10.9K+ views",
     "order": 5
   },
   {
@@ -44,7 +42,7 @@
     "title": "Saint Mary Church - Part 2",
     "category": "Documentary",
     "project": "Documentary & Exploration",
-    "views": "11K+ views",
+    "views": "64.5K+ views",
     "order": 6
   },
   {
@@ -52,7 +50,7 @@
     "title": "Saint Mary Church - Part 3",
     "category": "Documentary",
     "project": "Documentary & Exploration",
-    "views": "14K+ views",
+    "views": "79K+ views",
     "order": 7
   },
   {
@@ -60,7 +58,7 @@
     "title": "Saint John - California",
     "category": "Travel",
     "project": "Documentary & Exploration",
-    "views": "7.8K views",
+    "views": "22K views",
     "order": 8
   }
 ]
